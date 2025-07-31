@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FoodTruck Fácil</title>
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/@heroicons/vue@2.0.16/24/outline/index.min.js" defer></script>
+</head>
+<body class="bg-white text-gray-800">
+
+  <nav class="fixed top-0 w-full z-50 bg-white border-b border-gray-200 shadow-sm">
+    <div class="max-w-screen-xl mx-auto flex items-center justify-between p-4">
+      <div class="flex items-center space-x-2">
+        <img src="https://cdn-icons-png.flaticon.com/512/1046/1046784.png" alt="logo" class="w-8 h-8" />
+        <span class="text-3xl font-extrabold text-blue-600">FoodTruck Fácil</span>
+      </div>
+      <ul class="flex space-x-6 text-lg font-medium">
+        <li><a href="#home" class="hover:text-blue-600">Home</a></li>
+        <li><a href="#funcionalidades" class="hover:text-blue-600">Funcionalidades</a></li>
+        <li><a href="#beneficios" class="hover:text-blue-600">Benefícios</a></li>
+        <li><a href="#sobre" class="hover:text-blue-600">Sobre</a></li>
+        <li><a href="#contato" class="hover:text-blue-600">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="home" class="pt-28 pb-20 px-4 bg-blue-100">
+    <div class="max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="text-4xl font-extrabold text-gray-900 mb-4">Controle total do seu Foodtruck</h1>
+        <p class="text-gray-700 text-lg mb-6">Solução prática e inteligente para você gerenciar seu estoque e suas vendas com facilidade, direto do celular ou computador.</p>
+        <a href="#contato" class="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">Fale Conosco</a>
+      </div>
+      <img src="foodtruk envocado para site.jpg" class="rounded-lg w-full shadow" alt="Food Truck" />
+    </div>
+  </section>
+
+  <section id="funcionalidades" class="py-16 px-4 bg-white">
+    <div class="max-w-screen-xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-10 text-blue-600">Funcionalidades</h2>
+      <div class="grid md:grid-cols-3 gap-8 text-left">
+        <div class="p-6 bg-blue-50 rounded-lg shadow">
+          <h3 class="text-xl font-semibold mb-2">📦 Controle de Estoque</h3>
+          <p>Monitore ingredientes e produtos em tempo real, evitando perdas e rupturas.</p>
+        </div>
+        <div class="p-6 bg-blue-50 rounded-lg shadow">
+          <h3 class="text-xl font-semibold mb-2">🧾 Registro de Vendas</h3>
+          <p>Registre vendas com rapidez e consulte o histórico por dia, produto ou valor.</p>
+        </div>
+        <div class="p-6 bg-blue-50 rounded-lg shadow">
+          <h3 class="text-xl font-semibold mb-2">📊 Relatórios Visuais</h3>
+          <p>Acompanhe lucros e vendas com gráficos intuitivos e relatórios automáticos.</p>
+        </div>
+        <div class="p-6 bg-blue-50 rounded-lg shadow">
+          <h3 class="text-xl font-semibold mb-2">📱 Acesso por App</h3>
+          <p>Funciona perfeitamente em tablets, smartphones e PCs.</p>
+        </div>
+        <div class="p-6 bg-blue-50 rounded-lg shadow">
+          <h3 class="text-xl font-semibold mb-2">📋 Cadastro de Produtos</h3>
+          <p>Organize seu cardápio com categorias, preços e fotos atrativas.</p>
+        </div>
+        <div class="p-6 bg-blue-50 rounded-lg shadow">
+          <h3 class="text-xl font-semibold mb-2">🔒 Segurança na Nuvem</h3>
+          <p>Seus dados protegidos com backups automáticos e acesso seguro.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="beneficios" class="py-16 px-4 bg-gray-100">
+    <div class="max-w-screen-xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-10 text-blue-600">Benefícios</h2>
+      <div class="grid md:grid-cols-2 gap-8 text-left">
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-xl font-semibold mb-2">⚡ Agilidade no Atendimento</h3>
+          <p>Economize tempo e atenda mais clientes com rapidez.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-xl font-semibold mb-2">📱 Controle Total</h3>
+          <p>Acesse todas as informações da sua operação de qualquer lugar.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-xl font-semibold mb-2">💰 Economia de Insumos</h3>
+          <p>Reduza desperdícios com controle inteligente de estoque.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-xl font-semibold mb-2">📈 Aumento de Lucros</h3>
+          <p>Com organização, seus lucros crescem de forma consistente.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" class="py-16 px-4 bg-white">
+    <div class="max-w-screen-md mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6 text-blue-600">Sobre a Empresa</h2>
+      <p class="mb-4">Somos apaixonados por foodtrucks e tecnologia. Nossa missão é ajudar você a vender mais com menos esforço.</p>
+      <p class="mb-2"><strong>Missão:</strong> Facilitar a vida dos empreendedores de rua com ferramentas acessíveis e eficazes.</p>
+      <p><strong>Valores:</strong> Inovação, Confiança, Agilidade e Suporte humano.</p>
+    </div>
+  </section>
+
+  <section id="contato" class="py-16 px-4 bg-blue-50">
+    <div class="max-w-screen-sm mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-8 text-blue-600">Entre em Contato</h2>
+      <form class="space-y-6 text-left">
+        <div>
+          <label for="nome" class="block mb-2 text-sm font-medium">Nome</label>
+          <input type="text" id="nome" class="w-full p-2.5 border border-gray-300 rounded-lg" required />
+        </div>
+        <div>
+          <label for="email" class="block mb-2 text-sm font-medium">E-mail</label>
+          <input type="email" id="email" class="w-full p-2.5 border border-gray-300 rounded-lg" required />
+        </div>
+        <div>
+          <label for="mensagem" class="block mb-2 text-sm font-medium">Mensagem</label>
+          <textarea id="mensagem" rows="4" class="w-full p-2.5 border border-gray-300 rounded-lg" required></textarea>
+        </div>
+        <button type="submit" class="w-full text-white bg-blue-600 hover:bg-blue-700 font-medium rounded-lg px-5 py-2.5">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="text-center text-sm text-gray-500 py-6 bg-white border-t mt-10">
+    © 2025 FoodTruck Fácil. Todos os direitos reservados.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+</body>
+</html>
